@@ -1,0 +1,28 @@
+{
+    "healthcheck_report_pattern": {
+        "column": {
+            "entity_id": true,
+            "file_path": true,
+            "short_content": true,
+            "total_cnt": true,
+            "cnt1h": true,
+            "cnt24h": true,
+            "content": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    },
+    "healthcheck_report_item": {
+        "column": {
+            "entity_id": true,
+            "pattern_id": true,
+            "file_path": true,
+            "content": true,
+            "event_time": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}

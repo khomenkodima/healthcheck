@@ -1,0 +1,27 @@
+<?php
+/**
+ * @var $block \Khomenko\HealthCheck\Block\Adminhtml\Reports
+ */
+
+$reports = $block->getReports();
+?>
+<ul>
+<?php foreach ($reports as $report): ?>
+    <li>
+        <?php echo  $report['pattern_info']['title'];?>
+        <br>
+        Latest: <?php echo  $report['pattern_info']['latest'];?>
+        <br>
+        Last hour: <?php echo  $report['pattern_info']['last_1'];?>
+        Last 24 hours: <?php echo  $report['pattern_info']['last_24'];?>
+        Total count: <?php echo  $report['pattern_info']['count'];?>
+        <div>
+            <?php echo  $report['pattern_info']['short'];?>
+        </div>
+    <?php foreach ($report['items'] as $item): ?>
+
+    <?php endforeach; ?>
+    </li>
+<?php endforeach; ?>
+</ul>
+
