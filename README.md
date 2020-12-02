@@ -13,6 +13,6 @@ After installation run command
 It will collect statistic for latest 10 days
 
 
-## Ussage
+## Usage
 
 To see report groups and statistic fo to System->Tools->View Reports
