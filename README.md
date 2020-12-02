@@ -1,4 +1,4 @@
-# healthcheck
+# Magento 2 healthcheck
 
  This module reads folder var/report, builds groups of similar reports and counts how often they occur.
  
