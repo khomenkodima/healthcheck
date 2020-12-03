@@ -15,4 +15,4 @@ It will collect statistic for latest 10 days
 
 ## Usage
 
-To see report groups and statistic fo to System->Tools->View Reports
+To see report groups and statistic go to System->Tools->View Reports
